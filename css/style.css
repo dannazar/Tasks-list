@@ -1,0 +1,57 @@
+html, body {
+	height: 100%;
+	font-family: Helvetica, sans-serif;
+}
+
+body {
+	background: url('../img/flower.jpg') no-repeat; 
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/* App container*/
+.app-container {
+	max-width: 600px;
+	width: 100%;
+	padding: 25px;
+	color: #fff;
+    font-weight: bold;
+    text-shadow: 5px -12px 20px #fff;
+	background: rgba(0, 0, 0, 0.6);
+	box-shadow: 0 0 62px rgba(0,0,0,0.7);
+    border-radius: 10%;
+}
+
+.app-container h2 {   
+    font-size: 32px;
+	margin: 0 0 30px;
+   }
+
+/* New task */
+.new-task-container {
+	margin-bottom: 30px;
+}
+
+/* Tasks list */
+.tasks-container ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+/* Single task*/
+.single-task {
+	margin-bottom: 20px;
+ 
+}
+
+.form-control {
+	font-size: 20px;  
+}
+
+
+
+
+
